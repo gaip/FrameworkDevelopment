@@ -1,0 +1,14 @@
+#base configuration for execution
+environments:
+ dev:
+   baseUrl: https://www.google-dev.com
+   username: user1
+   password: pass1
+ staging:
+   baseUrl: https://www.google-staging.com
+   username: user2
+   password: pass2
+
+execution:
+ browser: chrome
+ threads: 3

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestSuite">
+
+	<test name="Non-PriorityTests">
+		<parameter name="num1" value="5" />
+		<parameter name="num2" value="8" />
+		<classes>
+			<class name="bootcamp.test.TestParameters" />
+		</classes>
+	</test>
+</suite>

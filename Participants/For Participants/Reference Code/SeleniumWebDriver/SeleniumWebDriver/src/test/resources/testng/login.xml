@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Test Suite">
+	<test name="BasicTest">
+		<classes>
+			<class name="bootcamp.testng.BasicTest"></class>
+		</classes>
+	</test>
+	<test name="BasccTest2">
+		<classes>
+			<class name="bootcamp.testng.ExecutionOrder">
+				<methods>
+					<include name="test2"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

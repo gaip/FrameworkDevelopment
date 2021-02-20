@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Test Suite">
+	<test name="BasicTest"> @Before/After Test
+		<classes>
+			<class name="bootcamp.testng.Groups">
+				<methods> @Before/After Method
+					<include name="test2"></include> @Test
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
+
+@BM
+@BeforeTest
+@Test
+@AfterTest
+@AM
+
+@BeforeMethod
+@Aftermetho
+
+
+
+
+// page specific
+LoginPage -> smoke + sanity +regression
+Checkout.xml ->
+smoke + sanity +regression
+PaymentPage -> smoke + sanity +regression
+
+
+smoke -> only smoke
+sanity -> only sanity
+regression -> only regression
+(!smoke and !sanity)
+
+
+club all the file into parent suite
+

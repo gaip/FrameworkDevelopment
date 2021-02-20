@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ParallelTests(failed)">
+    <classes>
+      <class name="bootcamp.testng.BasicTest">
+        <methods>
+          <include name="setup"/>
+          <include name="test1"/>
+          <include name="teadDown"/>
+        </methods>
+      </class> <!-- bootcamp.testng.BasicTest -->
+    </classes>
+  </test> <!-- ParallelTests(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

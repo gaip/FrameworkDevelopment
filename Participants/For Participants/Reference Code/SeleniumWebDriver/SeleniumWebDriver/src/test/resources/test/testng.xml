@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestSuite" >
+
+	<groups>
+		<run>
+			<include name="G1" />
+			<include name="G.*" />
+		</run>
+	</groups>
+
+<!-- 	<listeners>
+		<listener class-name="ListenersTestNG"></listener>
+	</listeners> -->
+
+	<test name="PriorityTests" parallel = "methods">
+		<classes>
+			<class name="bootcamp.test.TestPriority">
+				<methods>
+					<exclude name="c2" />
+				</methods>
+			</class>
+			<class name="bootcamp.test.BasicTest" />
+		</classes>
+	</test>
+	<test name="Non-PriorityTests">
+		<classes>
+			<class name="bootcamp.test.TestGroup" />
+		</classes>
+	</test>
+</suite>

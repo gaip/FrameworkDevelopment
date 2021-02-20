@@ -1,0 +1,42 @@
+[
+  {
+    "firstName": "Mona",
+    "lastName": "Mohamed",
+    "email": "",
+    "password": "1234@",
+    "isActive": false,
+    "alertMessage": "An email address required."
+  },
+  {
+    "firstName": "Reem",
+    "lastName": "Alim",
+    "email": "reemalim85.com",
+    "password": "",
+    "isActive": false,
+    "alertMessage": "Password is required."
+  },
+  {
+    "firstName": "Hadeel",
+    "lastName": "omar",
+    "email": "hadeel85@gmail.com",
+    "password": "1234@5",
+    "isActive": false,
+    "alertMessage": "Authentication failed."
+  },
+  {
+    "firstName": "Shinnawy",
+    "lastName": "Mohamed",
+    "email": "ADFFFF",
+    "password": "1234@5",
+    "isActive": false,
+    "alertMessage": "Invalid email address."
+  },
+  {
+    "firstName": "Reem",
+    "lastName": "Alim",
+    "email": "reemalim85@gmail.com",
+    "password": "Reem@lim85",
+    "isActive": true,
+    "alertMessage": "Welcome to your account. Here you can manage all of your personal information and orders."
+  }
+]
